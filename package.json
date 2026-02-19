@@ -1,12 +1,14 @@
 {
   "name": "whatsapp-bot-coordinacion",
   "version": "1.0.0",
-  "description": "Bot de WhatsApp para coordinación",
+  "description": "Bot de WhatsApp con IA",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "openai": "^4.0.0"
   }
 }
